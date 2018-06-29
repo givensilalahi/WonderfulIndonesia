@@ -1,5 +1,6 @@
 package com.example.gjsilalahi.recyclerviewaja;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,14 +16,18 @@ public class MainActivity extends AppCompatActivity {
     private List<Person> persons;
 
     class Person {
+        Context context;
         int name;
         int content;
         int photoId;
+        int share;
 
-        Person(int name, int content, int photoId) {
+        Person(Context context, int name, int content, int photoId, int share) {
+            this.context = context;
             this.name = name;
             this.content = content;
             this.photoId = photoId;
+            this.share = share;
         }
     }
 
@@ -43,9 +48,26 @@ public class MainActivity extends AppCompatActivity {
 
     private void initializeData(){
         persons = new ArrayList<>();
-        persons.add(new Person(R.string.judulmia, R.string.isimia, R.drawable.mbamia));
-        persons.add(new Person(R.string.judulsora, R.string.isisora, R.drawable.mbasora));
-        persons.add(new Person(R.string.judulluna, R.string.isiluna, R.drawable.mbaluna));
+        persons.add(new Person(MainActivity.this,
+                R.string.judul1,
+                R.string.isi1,
+                R.drawable.danautoba,
+                R.string.wiki_toba));
+        persons.add(new Person(MainActivity.this,
+                R.string.judul2,
+                R.string.isi2,
+                R.drawable.rajaampat,
+                R.string.wiki_ampat));
+        persons.add(new Person(MainActivity.this,
+                R.string.judul3,
+                R.string.isi3,
+                R.drawable.borobudur,
+                R.string.wiki_borobudur));
+        persons.add(new Person(MainActivity.this,
+                R.string.judul4,
+                R.string.isi4,
+                R.drawable.gunungbromo,
+                R.string.wiki_bromo));
     }
 
 

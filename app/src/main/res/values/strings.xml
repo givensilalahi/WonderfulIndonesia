@@ -1,18 +1,35 @@
 <resources>
-    <string name="app_name">RecyclerViewAja</string>
-    <string name="judulmia">Mba Mia / 25 thn</string>
-    <string name="judulsora">Mba Sora / 34 thn</string>
-    <string name="judulluna">Mba Luna / Tidak Diketahui</string>
-    <string name="isimia">Mia Khalifa yang juga dikenal sebagai Mia Callista adalah seorang selebriti media sosial
-        Amerika Serikat keturunan Lebanon yang terkenal
-        karena kariernya yang sukses dan singkat sebagai aktris
+    <string name="app_name">Wonderful Indonesia</string>
+
+    <string name="app_info">Aplikasi ini merupakan aplikasi informatif tentang keindahan Indonesia</string>
+    <string name="judul1">Danau Toba</string>
+    <string name="judul2">Raja Ampat</string>
+    <string name="judul3">Borobudur</string>
+    <string name="judul4">Gunung Bromo</string>
+
+
+    <string name="isi1">Danau Toba adalah sebuah danau alam besar tekto-vulkanik yang menempati kaldera dari sebuah supervulkan.
+        Danau ini memiliki ukuran panjang sekitar 100 kilometer, lebar sekitar 30 kilometer, dan kedalaman hingga 505 meter (1.657 kaki),
+        terletak di Provinsi Sumatera Utara, Indonesia. Danau Toba merupakan danau terbesar di Indonesia dan Asia Tenggara.
+        Di tengah danau ini terdapat sebuah pulau vulkanik bernama Pulau Samosir.
     </string>
-    <string name="isisora">Sora Aoi atau Sola Aoi merupakan seorang aktris
-        berkebangsaan Jepang. Mengawali kariernya pada tahun 2002 sebagai model,
-        saat ini ia juga dikenal secara luas di media mainstream.
+    <string name="isi2">Kepulauan Raja Ampat merupakan rangkaian empat gugusan pulau yang berdekatan dan berlokasi di barat bagian
+        Kepala Burung (Vogelkoop) Pulau Papua. Secara administrasi, gugusan ini berada di bawah Kabupaten Raja Ampat, Provinsi Papua Barat.
+        Kepulauan ini sekarang menjadi tujuan para penyelam yang tertarik akan keindahan pemandangan bawah lautnya. Empat gugusan pulau yang
+        menjadi anggotanya dinamakan menurut empat pulau terbesarnya, yaitu Pulau Waigeo, Pulau Misool, Pulau Salawati, dan Pulau Batanta.
     </string>
-    <string name="isiluna">Pasalnya, jenis kelamin Lucinta kian dipertanyakan,
-        karena dalam bukti laporan polisi yang dibuatnya
-        tertulis 'Laki-laki/perempuan'.
+    <string name="isi3">Borobudur adalah sebuah candi Buddha yang terletak
+        di Borobudur, Magelang, Jawa Tengah, Indonesia.
+        Candi ini berlokasi di kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat
     </string>
+    <string name="isi4">Gunung Bromo (dari bahasa Sanskerta: Brahma, salah seorang Dewa Utama dalam agama Hindu)
+        atau dalam bahasa Tengger dieja "Brama",
+        adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia.</string>
+
+    <string name="wiki_toba">https://id.wikipedia.org/wiki/Danau_Toba</string>
+    <string name="wiki_ampat">https://id.wikipedia.org/wiki/Kepulauan_Raja_Ampat</string>
+    <string name="wiki_borobudur">https://id.wikipedia.org/wiki/Borobudur</string>
+    <string name="wiki_bromo">https://id.wikipedia.org/wiki/Gunung_Bromo</string>
+
+
 </resources>
